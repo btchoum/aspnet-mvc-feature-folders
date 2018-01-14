@@ -1,12 +1,12 @@
 ﻿/// <binding BeforeBuild='Run - Development' />
 const webpack = require('webpack');
 
-
-
 module.exports = {
     entry: {
         vendor: [
-            'jquery'
+            'jquery',
+            'jquery-validation',
+            'jquery-validation-unobtrusive-umd-fix'
         ],
         CreateTicket: "./Features/Tickets/CreateTicket.component.ts"
     },
