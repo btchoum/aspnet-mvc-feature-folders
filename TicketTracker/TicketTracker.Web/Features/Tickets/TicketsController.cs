@@ -23,7 +23,7 @@ namespace TicketTracker.Web.Features.Tickets
             // TODO: send ticket to database
             // TODO: add success message 
             // redirect to main page on success
-            return Redirect(Url.Content("~/"));
+            return RedirectToAction("Index", "Home");
         }
     }
 }
