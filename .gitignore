@@ -286,3 +286,6 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+/TicketTracker/TicketTracker.Web/coverage
+/TicketTracker/TicketTracker.Web/TESTS-PhantomJS_2.1.1_(Windows_8_0.0.0).xml
+/TicketTracker/TicketTracker.Web/TESTS-Chrome_63.0.3239_(Windows_10_0.0.0).xml
