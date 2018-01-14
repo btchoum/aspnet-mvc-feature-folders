@@ -194,8 +194,6 @@
     <Content Include="Features\_ViewStart.cshtml" />
     <Content Include="Features\Shared\Error.cshtml" />
     <Content Include="Features\Shared\_Layout.cshtml" />
-    <Content Include="Features\Home\About.cshtml" />
-    <Content Include="Features\Home\Contact.cshtml" />
     <Content Include="Features\Home\Index.cshtml" />
     <Content Include="tsconfig.json" />
     <Content Include="Features\Tickets\Create.cshtml" />
@@ -216,6 +214,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="Features\Home\Home.component.ts" />
     <TypeScriptCompile Include="Features\Tickets\CreateTicket.component.spec.ts" />
     <TypeScriptCompile Include="Features\Tickets\CreateTicket.component.ts" />
   </ItemGroup>
