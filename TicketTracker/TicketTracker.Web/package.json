@@ -40,7 +40,7 @@
   "dependencies": {
     "bootstrap": "^3.4.1",
     "jquery": "^3.5.0",
-    "jquery-ui": "^1.13.0",
+    "jquery-ui": "^1.13.2",
     "jquery-validation": "^1.17.0",
     "jquery-validation-unobtrusive-umd-fix": "^1.0.1"
   }
